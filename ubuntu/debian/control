@@ -1,0 +1,41 @@
+Source: ignition-plugin
+Standards-Version: 3.9.4
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: extra
+Build-Depends: cmake,
+               debhelper (>= 7.0.50~),
+               doxygen,
+               libignition-cmake1-dev,
+               python,
+               ruby-ronn
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-plugin-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-plugin-release
+Homepage: https://bitbucket.org/ignitionrobotics/ign-plugin
+
+Package: libignition-plugin
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Robotics Plugin Library - Shared library
+
+Package: libignition-plugin-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-plugin (= ${binary:Version}),
+         libignition-cmake1-dev,
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Robotics Plugin Library - Development files
+
+Package: libignition-plugin-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends:
+     libignition-plugin (= ${binary:Version}),
+     ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Robotics Plugin Library - Debugging symbols

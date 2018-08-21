@@ -1,0 +1,2 @@
+version=3
+http://gazebosim.org/distributions/ign-plugin/releases/ignition-plugin-(\d\.\d\.\d)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
