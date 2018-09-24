@@ -1,3 +1,9 @@
+ignition-plugin (1.0.0~pre1-1~stretch) stretch; urgency=medium
+
+  * ignition-plugin 1.0.0~pre1-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Mon, 24 Sep 2018 09:07:18 -0700
+
 ignition-plugin (0.1.0~pre2-1~stretch) stretch; urgency=medium
 
   * ignition-plugin 0.1.0~pre2-1 release

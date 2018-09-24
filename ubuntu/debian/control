@@ -6,7 +6,7 @@ Priority: extra
 Build-Depends: cmake,
                debhelper (>= 7.0.50~),
                doxygen,
-               libignition-cmake1-dev,
+               libignition-cmake2-dev,
                python,
                ruby-ronn
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-plugin-release
@@ -25,7 +25,7 @@ Package: libignition-plugin-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-plugin (= ${binary:Version}),
-         libignition-cmake1-dev,
+         libignition-cmake2-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Plugin Library - Development files
