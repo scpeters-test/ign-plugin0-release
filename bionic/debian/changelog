@@ -1,16 +1,16 @@
-ignition-plugin (0.1.0~pre2-2~bionic) bionic; urgency=medium
+ignition-plugin0 (0.1.0~pre2-2~bionic) bionic; urgency=medium
 
   * ignition-plugin 0.1.0~pre2-2 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 27 Sep 2018 16:59:49 +0200
 
-ignition-plugin (0.1.0~pre2-1~bionic) bionic; urgency=medium
+ignition-plugin0 (0.1.0~pre2-1~bionic) bionic; urgency=medium
 
   * ignition-plugin 0.1.0~pre2-1 release
 
  -- Steve Peters <scpeters@osrfoundation.org>  Fri, 31 Aug 2018 13:32:51 -0700
 
-ignition-plugin (0.1.0~pre1-1~bionic) bionic; urgency=medium
+ignition-plugin0 (0.1.0~pre1-1~bionic) bionic; urgency=medium
 
   * ignition-plugin 0.1.0~pre1-1 release
 
