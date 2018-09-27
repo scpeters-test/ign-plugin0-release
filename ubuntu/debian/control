@@ -9,11 +9,11 @@ Build-Depends: cmake,
                libignition-cmake2-dev,
                python,
                ruby-ronn
-Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-plugin-release
-Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-plugin-release
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-plugin0-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-plugin0-release
 Homepage: https://bitbucket.org/ignitionrobotics/ign-plugin
 
-Package: libignition-plugin
+Package: libignition-plugin0
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -21,21 +21,21 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Plugin Library - Shared library
 
-Package: libignition-plugin-dev
+Package: libignition-plugin0-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-plugin (= ${binary:Version}),
+Depends: libignition-plugin0 (= ${binary:Version}),
          libignition-cmake2-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Plugin Library - Development files
 
-Package: libignition-plugin-dbg
+Package: libignition-plugin0-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libignition-plugin (= ${binary:Version}),
+     libignition-plugin0 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Plugin Library - Debugging symbols

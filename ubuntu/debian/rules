@@ -14,7 +14,7 @@ override_dh_auto_configure:
 	    -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
 override_dh_strip:
-	dh_strip -a --dbg-package=libignition-plugin-dbg
+	dh_strip -a --dbg-package=libignition-plugin0-dbg
 
 override_dh_auto_test:
 ifeq ($(DEB_HOST_ARCH),armhf)
